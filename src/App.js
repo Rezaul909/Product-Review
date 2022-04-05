@@ -8,6 +8,7 @@ import Dashboard from './Components/Dashboard/Dashboard';
 import Blogs from './Components/Blogs/Blogs';
 import About from './Components/About/About';
 import NotFound from './Components/NotFound/NotFound';
+import useData from './Components/Hooks/useData';
 
 
 function App() {
@@ -18,7 +19,8 @@ function App() {
     .then(data => setData(data))
   },[])
 
-
+  const [reviews, setReviews] = useData();
+  
   return (
     <div className="App">
       <Header></Header>
@@ -26,7 +28,9 @@ function App() {
       <Routes>
           <Route path='/' element={<Home data={data}></Home>}></Route>
           <Route path='/Home' element={<Home data={data}></Home>}></Route>
-          <Route path='/Review' element={<Review></Review>}></Route>
+          <Route path='/Review' element={
+                reviews.map(review => <Review key={review.id} review={review}></Review>)
+            }></Route>
           <Route path='/Dashboard' element={<Dashboard></Dashboard>}></Route>
           <Route path='/Blogs' element={<Blogs></Blogs>}></Route>
           <Route path='/About' element={<About></About>}></Route>

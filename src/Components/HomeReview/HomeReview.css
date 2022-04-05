@@ -11,6 +11,5 @@
 .user-info{
     display: flex;
     justify-content: space-between;
-    /* grid-template-columns: 2fr,1fr; */
 }
 

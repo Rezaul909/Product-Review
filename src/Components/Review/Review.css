@@ -1,0 +1,13 @@
+.review-cart{
+    height: 500px;
+    border-radius: 15px;
+}
+.review-cart img{
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.user-info{
+    display: flex;
+    justify-content: space-between;
+}
