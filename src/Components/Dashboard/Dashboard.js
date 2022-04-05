@@ -1,5 +1,5 @@
 import React from 'react';
-import { Bar, BarChart, Line, LineChart, XAxis, YAxis } from 'recharts';
+import { Bar, BarChart, Legend, Line, LineChart, Pie, PieChart, Tooltip, XAxis, YAxis } from 'recharts';
 import './Dashboard.css';
 
 const Dashboard = () => {
@@ -45,18 +45,24 @@ const Dashboard = () => {
     return (
         <div className='chart-container'> 
             <div className='m-20'>
-                <LineChart width={500} height={500} data={data}>
-                    <Line dataKey={'revenue'}></Line>
+                <LineChart width={500} height={450} data={data}>
+                    <Line dataKey={'revenue'} stroke="red" ></Line>
+                    <Line dataKey={'investment'}></Line>
                     <XAxis dataKey={'month'}></XAxis>
                     <YAxis></YAxis>
+                    <Tooltip></Tooltip>
+                    <Legend></Legend>
                 </LineChart>
                 <h1 className='text-4xl my-5'>Line chart</h1>
             </div>
             <div className='m-20'>
-                <BarChart width={500} height={500} data={data}>
+                <BarChart width={500} height={450} data={data}>
                     <Bar dataKey={'revenue'} fill='#8884D8'></Bar>
+                    <Bar dataKey={'investment'} fill='#9901F0'></Bar>
                     <XAxis dataKey={'month'}></XAxis>
                     <YAxis></YAxis>
+                    <Tooltip></Tooltip>
+                    <Legend></Legend>
                 </BarChart>
                 <h1 className='text-4xl my-5'>Bar chart</h1>
             </div>
