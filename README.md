@@ -1,10 +1,17 @@
-# Getting Started with Create React App
+# Find your Future Laptop
+## This is my live site link: [Click here to see live site](https://effulgent-scone-890595.netlify.app/).
+## This is my repository link: [Click here to see repo ](https://github.com/programming-hero-web-course-4/product-analysis-website-Rezaul909).
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Features
+Four features of my project
+- Anyone can find his/her future laptop using this site.
+- In this site, we display the data chart.
+- Anyone can find or read our valuable customer's reviews.
+- In Blogs component, we added tow important question/answer.
 
-## Available Scripts
 
-In the project directory, you can run:
+
+
 
 ### `npm start`
 
