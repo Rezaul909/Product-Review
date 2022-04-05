@@ -1,7 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import HomeReview from '../HomeReview/HomeReview';
+import useData from '../Hooks/useData';
 import './Home.css';
 
 const Home = ({data}) => {
+
+    const [reviews, setReviews] = useData();
+
     return (
         <div>
             <div className='home-container'>
@@ -16,6 +22,22 @@ const Home = ({data}) => {
                     <img src={data.picture} alt="" />
                 </div>
             </div>
+
+            <div className='my-16'>
+                <h1 className='text-4xl mb-10'>Customer Reviews</h1>
+                <div className='home-review-container'>
+                    {
+                        reviews.slice(0,3).map(review => <HomeReview key={review.id} review={review}></HomeReview>)
+                    }
+                </div>
+
+                <Link to='/Review'>
+                    <button className='bg-cyan-500 py-3 px-10 rounded-lg text-xl font-semibold'>
+                        See all Reviews
+                    </button>
+                </Link>
+            </div>
+            
         </div>
     );
 };

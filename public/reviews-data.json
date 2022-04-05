@@ -1,0 +1,62 @@
+[
+    {
+      "id": "624b90ffd717b975bb20de53",
+      "img": "https://images.unsplash.com/flagged/photo-1573740144655-bbb6e88fb18a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8dXNlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "ratings": 4,
+      "name": "Hicks Burris",
+      "gender": "male",
+      "email": "hicksburris@eweville.com",
+      "phone": "+1 (811) 569-3564",
+      "about": "Est aliqua culpa veniam exercitation. Ex veniam consectetur dolor eiusmod deserunt eu nostrud anim laborum nostrud cupidatat sit.Voluptate non commodo enim occaecat reprehenderit ut ea dolore nulla quis aute Ut aliquip in officia est ullamco enim Ut aliquip in officia est ullamco enim. \r\n"
+    },
+    {
+      "id": "624b90ff897024d27754cbe9",
+      "img": "https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHBlcnNvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "ratings": 5,
+      "name": "Chelsea Wynn",
+      "gender": "female",
+      "email": "chelseawynn@eweville.com",
+      "phone": "+1 (984) 429-2575",
+      "about": "Ut ad est deserunt aute cupidatat ipsum anim. Est sint nisi do pariatur. Laboris sint fugiat deserunt anim adipisicing voluptate in eu dolor officia. Nostrud deserunt mollit veniam proident. Pariatur consequat proident anim cillum.\r\n"
+    },
+    {
+      "id": "624b90ff44db24b3b89d4abf",
+      "img": "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8dXNlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "ratings": 5,
+      "name": "Bauer Heath",
+      "gender": "male",
+      "email": "bauerheath@eweville.com",
+      "phone": "+1 (925) 599-3088",
+      "about": "Culpa quis deserunt velit ullamco amet nisi aliquip officia fugiat aliquip. Minim laborum dolor dolor officia incididunt in consequat pariatur. Voluptate non commodo enim occaecat reprehenderit ut ea dolore nulla quis aute.\r\n"
+    },
+    {
+      "id": "624b90ff770c638366381d74",
+      "img": "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8dXNlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "ratings": 4,
+      "name": "Riggs Spencer",
+      "gender": "male",
+      "email": "riggsspencer@eweville.com",
+      "phone": "+1 (870) 581-2330",
+      "about": "Ea irure in proident reprehenderit pariatur aliqua velit dolor esse ullamco ex ullamco est. Eu aliquip laborum ipsum laboris incididunt ut commodo eiusmod duis culpa. Ut sint proident veniam amet eiusmod ullamco cupidatat anim.\r\n"
+    },
+    {
+      "id": "624b90ff8352818817966473",
+      "img": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHVzZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+      "ratings": 5,
+      "name": "Faye Powell",
+      "gender": "female",
+      "email": "fayepowell@eweville.com",
+      "phone": "+1 (967) 486-2721",
+      "about": "Et exercitation dolor proident culpa eu aliqua esse fugiat magna mollit nisi. Et consectetur nostrud aute et ad sit eiusmod aliqua velit laboris quis officia Lorem. Aliqua commodo enim fugiat tempor nisi minim excepteur consequat non irure proident. \r\n"
+    },
+    {
+      "id": "624b90ffc3f999d17c84c3f5",
+      "img": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHVzZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+      "ratings": 5,
+      "name": "Marina Rhodes",
+      "gender": "female",
+      "email": "marinarhodes@eweville.com",
+      "phone": "+1 (850) 500-2301",
+      "about": "In ullamco amet velit laboris voluptate velit minim dolor. Incididunt Lorem magna cupidatat labore quis. Excepteur elit ipsum voluptate duis amet occaecat anim. Ipsum consequat aliqua esse occaecat. Ut aliquip in officia est ullamco enim.\r\n"
+    }
+  ]
